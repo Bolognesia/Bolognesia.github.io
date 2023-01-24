@@ -2561,6 +2561,11 @@ input, select, textarea {
 			opacity: 0.25;
 		}
 
+		.about{
+			float: right;
+			
+		}
+
 /* Tiles */
 
 	.tiles {
@@ -2830,7 +2835,10 @@ input, select, textarea {
 
 	#header {
 		padding: 8em 0 0.1em 0 ;
+		
 	}
+
+	
 
 		#header .logo {
 			display: block;
