@@ -2213,7 +2213,7 @@ body.is-touch .tiles article .content {
 /* Header */
 #header {
   padding: 8em 0 0.1em 0;
-  background-color: #f6f6f6;
+  background-color: grey;
 }
 #header .logo {
   display: block;
