@@ -2572,7 +2572,7 @@ input, select, textarea {
 		-webkit-flex-wrap: wrap;
 		-ms-flex-wrap: wrap;
 		flex-wrap: wrap;
-		postiion: relative;
+		position: relative;
 		margin: -2.5em 0 0 -2.5em;
 	}
 
@@ -2830,6 +2830,7 @@ input, select, textarea {
 
 	#header {
 		padding: 8em 0 0.1em 0 ;
+		
 	}
 
 		#header .logo {
@@ -3152,7 +3153,35 @@ input, select, textarea {
 
 	#main {
 		padding: 0em 0 6em 0 ;
+
 	}
+
+	.project-section{
+		display: flex;
+			
+	}
+
+	.tools-section{
+		background-color: #d4b9e2;
+		padding: 20px;
+		border-radius: 10px;
+		width: 500px;
+		
+	}
+
+	.project-content-section{
+		margin-left: 40px;
+	}
+
+	.brief-wrapper{
+		display: flex;
+	}
+
+	.black-estate-image-wrapper{
+		margin-left: 20px;
+	}
+
+	
 
 		@media screen and (max-width: 736px) {
 
