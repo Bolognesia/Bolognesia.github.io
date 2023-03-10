@@ -1,0 +1,111 @@
+//BREAKPOINTS
+$medium: 900px;
+$small: 576px;
+
+//COLORS
+$btn-background-color: rgba(222, 232, 235, 0.607);
+$light-border: #8499e7;
+
+
+@mixin tools_used{
+    border-spacing: 10px 5px;
+    border: 2px solid $light-border;
+    width: fit-content;
+    padding: 5px 15px;
+    border-radius: 5px;
+}
+
+//PROJECTS SECTION
+.project-content-section{
+   
+
+    p, h3{
+        margin: 10px 0;
+    }
+
+    .brief-wrapper{
+        display: flex;
+        align-items: center;
+    }
+    
+    .logo-image-wrapper{
+        height: 150px;
+        width: 400px;
+        margin-left: 20px;
+    }
+    
+    .logo{
+        width: 100%;
+        height: 100%;
+        object-fit: fill;
+    }
+    .tools-section{
+        display: flex;
+        align-items: center;
+        margin: 32px 0;
+    }
+    .tool-btn{
+        @include tools_used;
+        margin-right: 10px;
+    }
+
+    .link{
+        color: $light-border;
+    }
+    
+    .mockups-section{
+        display: flex;
+        width: 100%;
+        
+        .container{
+            width: 500px;
+            height: 500px;
+            margin: 10px;
+
+            img{
+                width: 100%;
+                height: 100%;
+                object-fit: cover;
+            }
+        }
+    }
+
+    @media screen and (max-width: $medium) {
+        .tools-section{
+            flex-wrap: wrap;
+
+            .tool-btn{
+                margin-bottom: 10px;
+            }
+        }
+
+        .mockups-section{
+            flex-direction: column;
+
+            .container{
+                width: 96%;
+            }
+        }
+    }
+
+    @media screen and (max-width:$small){
+        .brief-wrapper{
+            flex-direction: column;
+        }
+    }
+}
+
+
+/* ECO */
+#eco-hero-img{
+    height: 400px;
+
+    img{
+        height: 100%;
+        object-fit: cover;
+    }
+}
+
+
+
+

@@ -1,0 +1,79 @@
+.project-content-section p, .project-content-section h3 {
+  margin: 10px 0;
+}
+.project-content-section .brief-wrapper {
+  display: flex;
+  align-items: center;
+}
+.project-content-section .logo-image-wrapper {
+  height: 150px;
+  width: 400px;
+  margin-left: 20px;
+}
+.project-content-section .logo {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
+}
+.project-content-section .tools-section {
+  display: flex;
+  align-items: center;
+  margin: 32px 0;
+}
+.project-content-section .tool-btn {
+  border-spacing: 10px 5px;
+  border: 2px solid #8499e7;
+  width: -moz-fit-content;
+  width: fit-content;
+  padding: 5px 15px;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+.project-content-section .link {
+  color: #8499e7;
+}
+.project-content-section .mockups-section {
+  display: flex;
+  width: 100%;
+}
+.project-content-section .mockups-section .container {
+  width: 500px;
+  height: 500px;
+  margin: 10px;
+}
+.project-content-section .mockups-section .container img {
+  width: 100%;
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+@media screen and (max-width: 900px) {
+  .project-content-section .tools-section {
+    flex-wrap: wrap;
+  }
+  .project-content-section .tools-section .tool-btn {
+    margin-bottom: 10px;
+  }
+  .project-content-section .mockups-section {
+    flex-direction: column;
+  }
+  .project-content-section .mockups-section .container {
+    width: 96%;
+  }
+}
+@media screen and (max-width: 576px) {
+  .project-content-section .brief-wrapper {
+    flex-direction: column;
+  }
+}
+
+/* ECO */
+#eco-hero-img {
+  height: 400px;
+}
+#eco-hero-img img {
+  height: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}/*# sourceMappingURL=my-css.css.map */
