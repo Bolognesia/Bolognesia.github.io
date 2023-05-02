@@ -98,8 +98,8 @@ $light-border: #8499e7;
 }
 
 
-/* ECO */
-#eco-hero-img{
+/* HERO IMAGES */
+#eco-hero-img, #hb-hero-image{
     height: 400px;
 
     img{
@@ -116,6 +116,7 @@ $light-border: #8499e7;
     img{
         width: 100%;
         height: 100%;
+        object-fit: cover;
     }
 }
 
