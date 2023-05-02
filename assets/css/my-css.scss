@@ -122,13 +122,18 @@ $light-border: #8499e7;
 .about-me-wrapper{
     margin: 20px 0;
 
+    .right-align{
+        text-align: right;
+    }
     
 
-    .paragraph-wrapper{
+    .about-me-paragraph-wrapper{
         display: flex;
+        justify-content: space-between;
+        align-items: center;
 
         .img-wrapper{
-            width: 20%;
+            width: clamp(150px, 50vw, 200px);
 
             img{
                 height: 100%;
@@ -136,7 +141,15 @@ $light-border: #8499e7;
                 object-fit: fill;
             }
         }
+
+        .paragraph-wrapper{
+            max-width: 80%;
+        }
     }
+}
+
+.inverted{
+    flex-direction: row-reverse;
 }
 
 

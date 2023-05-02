@@ -90,15 +90,27 @@
 .about-me-wrapper {
   margin: 20px 0;
 }
-.about-me-wrapper .paragraph-wrapper {
+.about-me-wrapper .right-align {
+  text-align: right;
+}
+.about-me-wrapper .about-me-paragraph-wrapper {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
-.about-me-wrapper .paragraph-wrapper .img-wrapper {
-  width: 20%;
+.about-me-wrapper .about-me-paragraph-wrapper .img-wrapper {
+  width: clamp(150px, 50vw, 200px);
 }
-.about-me-wrapper .paragraph-wrapper .img-wrapper img {
+.about-me-wrapper .about-me-paragraph-wrapper .img-wrapper img {
   height: 100%;
   width: 100%;
   -o-object-fit: fill;
      object-fit: fill;
+}
+.about-me-wrapper .about-me-paragraph-wrapper .paragraph-wrapper {
+  max-width: 80%;
+}
+
+.inverted {
+  flex-direction: row-reverse;
 }/*# sourceMappingURL=my-css.css.map */
