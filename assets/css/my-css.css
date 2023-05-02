@@ -76,4 +76,29 @@
   height: 100%;
   -o-object-fit: cover;
      object-fit: cover;
+}
+
+#about {
+  width: 75%;
+  margin: auto;
+}
+#about img {
+  width: 100%;
+  height: 100%;
+}
+
+.about-me-wrapper {
+  margin: 20px 0;
+}
+.about-me-wrapper .paragraph-wrapper {
+  display: flex;
+}
+.about-me-wrapper .paragraph-wrapper .img-wrapper {
+  width: 20%;
+}
+.about-me-wrapper .paragraph-wrapper .img-wrapper img {
+  height: 100%;
+  width: 100%;
+  -o-object-fit: fill;
+     object-fit: fill;
 }/*# sourceMappingURL=my-css.css.map */
