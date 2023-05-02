@@ -99,7 +99,7 @@
   align-items: center;
 }
 .about-me-wrapper .about-me-paragraph-wrapper .img-wrapper {
-  width: clamp(150px, 50vw, 200px);
+  width: clamp(150px, 50vw, 250px);
 }
 .about-me-wrapper .about-me-paragraph-wrapper .img-wrapper img {
   height: 100%;
@@ -108,7 +108,7 @@
      object-fit: fill;
 }
 .about-me-wrapper .about-me-paragraph-wrapper .paragraph-wrapper {
-  max-width: 80%;
+  max-width: 75%;
 }
 
 .inverted {
