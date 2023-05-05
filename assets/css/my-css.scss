@@ -135,6 +135,7 @@ $light-border: #8499e7;
 
         .img-wrapper{
             width: clamp(150px, 50vw,250px);
+            margin: 20px;
 
             img{
                 height: 100%;
@@ -147,10 +148,30 @@ $light-border: #8499e7;
             max-width: 75%;
         }
     }
+
+    .inverted{
+        flex-direction: row-reverse;
+    }
 }
 
-.inverted{
-    flex-direction: row-reverse;
+
+
+//MEDIA SCREEN
+
+@media screen and (max-width: $medium){
+
+    .about-me-wrapper{
+
+        .right-align, h2{
+            text-align: center;
+        }
+        .about-me-paragraph-wrapper{
+            flex-direction: column;
+        }
+
+    }
+    
+
 }
 
 

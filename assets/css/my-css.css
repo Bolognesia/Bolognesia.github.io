@@ -102,6 +102,7 @@
 }
 .about-me-wrapper .about-me-paragraph-wrapper .img-wrapper {
   width: clamp(150px, 50vw, 250px);
+  margin: 20px;
 }
 .about-me-wrapper .about-me-paragraph-wrapper .img-wrapper img {
   height: 100%;
@@ -112,7 +113,15 @@
 .about-me-wrapper .about-me-paragraph-wrapper .paragraph-wrapper {
   max-width: 75%;
 }
-
-.inverted {
+.about-me-wrapper .inverted {
   flex-direction: row-reverse;
+}
+
+@media screen and (max-width: 900px) {
+  .about-me-wrapper .right-align, .about-me-wrapper h2 {
+    text-align: center;
+  }
+  .about-me-wrapper .about-me-paragraph-wrapper {
+    flex-direction: column;
+  }
 }/*# sourceMappingURL=my-css.css.map */
