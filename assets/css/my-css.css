@@ -21,15 +21,6 @@
   -o-object-fit: fill;
      object-fit: fill;
 }
-.project-content-section .tool-btn {
-  border-spacing: 10px 5px;
-  border: 2px solid #8499e7;
-  width: -moz-fit-content;
-  width: fit-content;
-  padding: 5px 15px;
-  border-radius: 5px;
-  margin-right: 10px;
-}
 .project-content-section .link {
   color: #8499e7;
 }
@@ -49,12 +40,6 @@
      object-fit: cover;
 }
 @media screen and (max-width: 900px) {
-  .project-content-section .tools-section {
-    flex-wrap: wrap;
-  }
-  .project-content-section .tools-section .tool-btn {
-    margin-bottom: 10px;
-  }
   .project-content-section .mockups-section {
     flex-direction: column;
   }

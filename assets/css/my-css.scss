@@ -6,15 +6,6 @@ $small: 576px;
 $btn-background-color: rgba(222, 232, 235, 0.607);
 $light-border: #8499e7;
 
-
-@mixin tools_used{
-    border-spacing: 10px 5px;
-    border: 2px solid $light-border;
-    width: fit-content;
-    padding: 5px 15px;
-    border-radius: 5px;
-}
-
 //PROJECTS SECTION
 .project-content-section{
    
@@ -46,10 +37,6 @@ $light-border: #8499e7;
         object-fit: fill;
     }
 
-    .tool-btn{
-        @include tools_used;
-        margin-right: 10px;
-    }
 
     .link{
         color: $light-border;
@@ -75,13 +62,6 @@ $light-border: #8499e7;
 
 
     @media screen and (max-width: $medium) {
-        .tools-section{
-            flex-wrap: wrap;
-
-            .tool-btn{
-                margin-bottom: 10px;
-            }
-        }
 
         .mockups-section{
             flex-direction: column;
