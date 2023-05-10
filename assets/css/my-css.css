@@ -21,11 +21,6 @@
   -o-object-fit: fill;
      object-fit: fill;
 }
-.project-content-section .tools-section {
-  display: flex;
-  align-items: center;
-  margin: 32px 0;
-}
 .project-content-section .tool-btn {
   border-spacing: 10px 5px;
   border: 2px solid #8499e7;

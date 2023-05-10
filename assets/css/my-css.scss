@@ -45,11 +45,7 @@ $light-border: #8499e7;
         height: 100%;
         object-fit: fill;
     }
-    .tools-section{
-        display: flex;
-        align-items: center;
-        margin: 32px 0;
-    }
+
     .tool-btn{
         @include tools_used;
         margin-right: 10px;
