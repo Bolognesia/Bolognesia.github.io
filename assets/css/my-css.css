@@ -1,3 +1,9 @@
+.learn-more-wrapper {
+  margin: 0 0 32px 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
 .project-content-section p, .project-content-section h3 {
   margin: 10px 0;
 }
