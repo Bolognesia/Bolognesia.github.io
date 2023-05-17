@@ -14,6 +14,12 @@ $light-border: #8499e7;
     display: flex;
     justify-content: flex-end;
 }
+
+.tiles article > a:hover{
+    p{
+        font-weight: 600;
+    }
+}
 //PROJECTS SECTION
 .project-content-section{
    

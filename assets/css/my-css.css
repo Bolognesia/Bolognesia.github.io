@@ -4,6 +4,10 @@
   justify-content: flex-end;
 }
 
+.tiles article > a:hover p {
+  font-weight: 600;
+}
+
 .project-content-section p, .project-content-section h3 {
   margin: 10px 0;
 }
